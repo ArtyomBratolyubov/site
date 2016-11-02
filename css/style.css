@@ -1,0 +1,148 @@
+.column {
+    background-origin: border-box;
+
+    width: 33%;
+
+    background-image: url("../resource/bg2.png");
+    background-size: auto;
+
+    border-left: solid 2px #da654e;
+
+    color: #dab463;
+}
+
+#firstColumn {
+    border-left: none;
+}
+
+.imageProps {
+    height: 300px;
+    width: auto;
+    opacity: 0.7;
+    z-index: 1;
+    background: #808080;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.imageProps:hover {
+    height: 400px;
+    width: auto;
+    opacity: 1;
+    z-index: 2;
+    background: RGBA(80, 80, 80, 0.7);
+}
+
+body {
+    background: #2f2f2f;
+    background-image: url(../resource/bg1.jpg);
+}
+
+#androidImg {
+    position: relative;
+    left: 180px;
+    top: 20px;
+    border: 2px solid #40da32;
+}
+
+#iphoneImg {
+    position: relative;
+    left: 460px;
+    bottom: 150px;
+    border: 2px solid #3071da;
+}
+
+#iphoneImg:hover{
+    transition: 3s;
+    -webkit-transform: rotate(720deg) scale(0.01,0.01);
+}
+
+#windowsImg {
+    position: relative;
+    left: 650px;
+    bottom: 300px;
+    border: 2px solid #dab246;
+}
+
+.par1 {
+    font-family: "Maiandra GD";
+    font-size: 16px;
+    color: #dab463;
+    margin: 10px;
+    text-shadow: 0px 0px 20px #da654e;
+}
+
+.par2 {
+    font-family: "Micra";
+    font-size: 16px;
+    color: cadetblue;
+    margin: 10px;
+    text-shadow: 0px 0px 20px #6AFF44;
+}
+
+.par3 {
+    font-family: "Mistral";
+    font-size: 18px;
+    color: coral;
+    margin: 10px;
+    text-shadow: 0px 0px 20px #FF26EC;
+}
+
+table {
+    table-layout: fixed; /* Фиксированная ширина ячеек */
+    width: 100%; /* Ширина таблицы */
+}
+
+#animation {
+    position: fixed;
+    height: 40px;
+    width: auto;
+    top: 597px;
+    left: -40px;
+    z-index: 4;
+    border-radius: 90px;
+
+    animation: colorFrames 7s;
+}
+
+@keyframes colorFrames {
+    0% {
+        background-color: #da4484;
+        left: -40px;
+    }
+    20% {
+        background-color: #ac5fda;
+    }
+    40% {
+        background-color: #44b7da
+    }
+    60% {
+        background-color: #48da4e;
+    }
+    80% {
+        background-color: #daa148;
+    }
+    85% {
+        left: 1300px;
+        top: 597px;
+        -webkit-transform: rotate(1800deg);
+    }
+    90% {
+        top: 560px;
+        left: 1300px;
+    }
+    95% {
+        top: 597px;
+        left: 1300px;
+        opacity: 1;
+    }
+    100% {
+        background-color: #da4484;
+        left: 1300px;
+        opacity: 0;
+    }
+}
+
+
+
+
