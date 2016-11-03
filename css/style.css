@@ -66,7 +66,11 @@ body {
 
 .par1 {
     font-family: "Maiandra GD";
+<<<<<<< HEAD
     font-size: 16px;
+=======
+    font-size: 17px;
+>>>>>>> new_colors
     color: #dab465;
     margin: 10px;
     text-shadow: 0px 0px 20px #da654e;
@@ -74,7 +78,7 @@ body {
 
 .par2 {
     font-family: "Micra";
-    font-size: 16px;
+    font-size: 17px;
     color: cadetblue;
     margin: 10px;
     text-shadow: 0px 0px 20px #32dfff;
@@ -82,7 +86,7 @@ body {
 
 .par3 {
     font-family: "Mistral";
-    font-size: 18px;
+    font-size: 19px;
     color: coral;
     margin: 10px;
     text-shadow: 0px 0px 20px #62ff20;
